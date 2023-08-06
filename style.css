@@ -142,7 +142,7 @@ header .nav{
 .posts p{
     font-size: 0.75rem;
     font-weight: 300;
-    margin: 0.5rem auto 0.5rem 0
+    margin: 0.5rem auto 0.5rem 0;
 }
 
 .post2{
@@ -164,4 +164,47 @@ header .nav{
 
 .rm{
     color: #71A4E0;
+}
+
+/*Courses*/
+.course-section{
+    background-color: #D8D8D8;
+    padding: 2rem 4.5rem;
+    margin: 0 auto;
+}
+
+.course-section h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.course{
+    background-color: white;
+    width: 30%;
+    padding-bottom: 1rem;
+}
+
+.course img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.course h4{
+    margin: 0 1rem 0.5rem;
+}
+
+.course p{
+    font-size: 0.75rem;
+    font-weight: 200;
+    margin: 0.5rem 1rem;
 }
