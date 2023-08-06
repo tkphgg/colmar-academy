@@ -1,6 +1,8 @@
 html{
     font-size: 16px;
-    box-sizing: content-box;
+    box-sizing: border-box;
+    color: #4A4A4A;
+    font-family: Montserrat, sans-serif;
 }
 
 /*Header*/
@@ -83,4 +85,83 @@ header .nav{
     padding: 0.5rem auto;
     margin: 0.5rem 0 0 0;
     /*width: 90%;*/
+}
+
+/*Posts*/
+.post{
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    align-items: flex-start;
+}
+
+.post1{
+    width: 60%;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.post1 h2{
+    font-size: 1.75rem;
+    margin: 0 auto 1.5rem 0;
+}
+
+.post1 p{
+    margin-top: 0;
+    color: #4E4E4E;
+    font-weight: 200;
+    font-size: 0.875rem;
+}
+
+.post1:hover{
+    background-color: #D8D8D8;
+}
+
+#post1{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.post1 .author{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2rem;
+}
+
+.posts{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.posts h3{
+    font-size: 0.875rem;
+    font-weight: 550;
+    margin: 0;
+}
+
+.posts p{
+    font-size: 0.75rem;
+    font-weight: 300;
+    margin: 0.5rem auto 0.5rem 0
+}
+
+.post2{
+    display: flex;
+    gap: 1.5rem;
+    font-family: Montserrat, sans-serif;
+    align-items: center;
+    padding: 2rem 1.5rem;
+}
+
+.post2:hover{
+    background-color: #D8D8D8;
+}
+
+.post2 img{
+    width: 35%;
+    height: fit-content;
+}
+
+.rm{
+    color: #71A4E0;
 }
