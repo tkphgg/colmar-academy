@@ -42,3 +42,45 @@ header .nav{
     margin-right: 1.5rem;
     
 }
+
+/*Banner*/
+.banner{
+    background-color: #D8D8D8;
+    font-family: "Montserrat", sans-serif;
+    color: #4A4A4A;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner h2{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.banner h3{
+    font-weight: normal;
+    margin: 0;
+}
+
+.banner img{
+    width: 60%;
+    margin: 2rem 1.5rem;
+}
+
+.banner .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+    gap: 1.75rem;
+    padding-right: 2rem;
+}
+
+.banner .button{
+    background-color: #4A4A4A;
+    color: white;
+    text-align: center;
+    padding: 0.5rem auto;
+    margin: 0.5rem 0 0 0;
+    /*width: 90%;*/
+}
