@@ -1,0 +1,44 @@
+html{
+    font-size: 16px;
+    box-sizing: content-box;
+}
+
+/*Header*/
+header{
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo{
+    display: inline-flex;
+    font-family: 'Hind', sans-serif;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+header img{
+    height: 3rem;
+}
+
+header .colmar{
+    font-weight: 650;
+    color: #4A4A4A;
+}
+
+header .academy{
+    color:#9B9B9B;
+}
+
+header .nav{
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1.5rem;
+    
+}
